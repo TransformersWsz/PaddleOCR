@@ -1,0 +1,13 @@
+TrainReader:
+  reader_function: ppocr.data.rec.dataset_traversal,SimpleReader
+  num_workers: 1
+  img_set_dir: ./train_data/ocr_rec
+  label_file_path: ./train_data/ocr_rec/ocr_rec_train_label.txt
+  
+EvalReader:
+  reader_function: ppocr.data.rec.dataset_traversal,SimpleReader
+  img_set_dir: ./train_data/ocr_rec
+  label_file_path: ./train_data/ocr_rec/ocr_rec_eval_label.txt
+
+TestReader:
+  reader_function: ppocr.data.rec.dataset_traversal,SimpleReader

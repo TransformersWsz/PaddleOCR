@@ -1,0 +1,49 @@
+<!doctype html>
+<title>OCR Online Demo</title>
+<link rel="stylesheet" href="/static/css/bootstrap.min.css">
+<link rel="stylesheet" href="/static/css/fileinput.min.css">
+
+
+<div class="container">
+    <div class="page-header">
+        <h2>上传规则文件，样本见：<a href="/static/js/test.json">test.json</a></h2>
+    </div>
+
+    <form enctype="multipart/form-data">
+        <div class="form-group">
+            <input id="rule" class="file" type="file" multiple data-preview-file-type="any" data-upload-url="/addrule"
+                name="jsonfile">
+        </div>
+    </form>
+</div>
+<!-- <img src="{{ url_for('static', filename='img/1.jpg') }}" /> -->
+<script src="/static/js/jquery.min.js"></script>
+<script src="/static/js/fileinput.min.js"></script>
+<script src="/static/js/bootstrap.min.js"></script>
+<script>
+    //准备附件上传的样式
+    $("#rule").fileinput({
+        showPreview: true, //是否显示预览
+        uploadUrl: '/addrule', // you must set a valid URL here else you will get an error
+        allowedFileExtensions: ['json'],
+        showUpload: true, //是否显示上传按钮
+        overwriteInitial: false,
+        layoutTemplates: {
+            actionUpload: '',
+            actionDelete: ''
+        },
+        maxFileSize: 2000,
+        maxTotalFileCount: 1,
+        maxFileCount: 1,
+        slugCallback: function (filename) {
+            return filename.replace('(', '_').replace(']', '_');
+        }
+    }).on("fileuploaded", (event, data) => {
+        if (data.response.msg == "success") {
+            window.location.href = "/";
+        }
+        else {
+            window.alert(data.response.msg);
+        }
+    });
+</script>

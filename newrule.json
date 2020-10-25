@@ -1,0 +1,12 @@
+{
+    "大家乐": {   
+        "date": "\\d{2}/\\d{2}/\\d{4}",    
+        "hms": "\\d+:\\d+",   
+        "order_keyword": "单号",   
+        "order": "\\d+",   
+        "shop": "深圳星过盛世店",    
+        "money_keyword": "现金",    
+        "money_offset": 1,    
+        "money_num": "\\d+\\.?\\d*"
+    }
+}

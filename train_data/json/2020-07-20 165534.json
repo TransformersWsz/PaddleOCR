@@ -1,0 +1,594 @@
+{
+  "version": "4.5.6",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "钟姐炖品万象城店",
+      "points": [
+        [
+          869.125,
+          744.25
+        ],
+        [
+          1887.875,
+          638.0
+        ],
+        [
+          1891.0,
+          781.75
+        ],
+        [
+          856.625,
+          891.125
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "polygon",
+      "flags": {}
+    },
+    {
+      "label": "[大众点评南宁小吃快餐评价榜]第1名",
+      "points": [
+        [
+          881.625,
+          884.875
+        ],
+        [
+          1931.625,
+          775.5
+        ],
+        [
+          1944.125,
+          891.125
+        ],
+        [
+          872.25,
+          1016.125
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "polygon",
+      "flags": {}
+    },
+    {
+      "label": "结账单-堂食-已结",
+      "points": [
+        [
+          1228.5,
+          988.0
+        ],
+        [
+          1759.75,
+          913.0
+        ],
+        [
+          1759.75,
+          988.0
+        ],
+        [
+          1247.25,
+          1056.75
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "polygon",
+      "flags": {}
+    },
+    {
+      "label": "单号:28",
+      "points": [
+        [
+          794.125,
+          1109.875
+        ],
+        [
+          1291.0,
+          1269.25
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "桌号",
+      "points": [
+        [
+          1606.625,
+          1031.75
+        ],
+        [
+          1878.5,
+          1191.125
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "品名",
+      "points": [
+        [
+          697.25,
+          1309.875
+        ],
+        [
+          856.625,
+          1413.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "规格",
+      "points": [
+        [
+          1162.875,
+          1275.5
+        ],
+        [
+          1303.5,
+          1369.25
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "数量",
+      "points": [
+        [
+          1366.0,
+          1256.75
+        ],
+        [
+          1522.25,
+          1350.5
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "单价",
+      "points": [
+        [
+          1572.25,
+          1216.125
+        ],
+        [
+          1734.75,
+          1334.875
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "小计",
+      "points": [
+        [
+          1837.875,
+          1206.75
+        ],
+        [
+          2009.75,
+          1297.375
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "八宝饭",
+      "points": [
+        [
+          719.125,
+          1438.0
+        ],
+        [
+          984.75,
+          1566.125
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "份",
+      "points": [
+        [
+          1225.375,
+          1413.0
+        ],
+        [
+          1344.125,
+          1528.625
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "1.0",
+      "points": [
+        [
+          1412.875,
+          1381.75
+        ],
+        [
+          1578.5,
+          1509.875
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "5",
+      "points": [
+        [
+          1662.875,
+          1359.875
+        ],
+        [
+          1800.375,
+          1488.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "5",
+      "points": [
+        [
+          1909.75,
+          1322.375
+        ],
+        [
+          2028.5,
+          1475.5
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "玉米炖排骨",
+      "points": [
+        [
+          712.875,
+          1575.5
+        ],
+        [
+          1072.25,
+          1706.75
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "份",
+      "points": [
+        [
+          1212.875,
+          1525.5
+        ],
+        [
+          1353.5,
+          1663.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "1.0",
+      "points": [
+        [
+          1409.75,
+          1528.625
+        ],
+        [
+          1581.625,
+          1659.875
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "13",
+      "points": [
+        [
+          1675.375,
+          1500.5
+        ],
+        [
+          1781.625,
+          1644.25
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "13",
+      "points": [
+        [
+          1906.625,
+          1491.125
+        ],
+        [
+          2025.375,
+          1625.5
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "消费合计:",
+      "points": [
+        [
+          828.5,
+          1731.75
+        ],
+        [
+          1131.625,
+          1825.5
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "18",
+      "points": [
+        [
+          1884.75,
+          1659.875
+        ],
+        [
+          1981.625,
+          1759.875
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "应收:",
+      "points": [
+        [
+          841.0,
+          1866.125
+        ],
+        [
+          1019.125,
+          1953.625
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "18",
+      "points": [
+        [
+          1884.75,
+          1791.125
+        ],
+        [
+          1991.0,
+          1884.875
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "哗啦啦支付宝:",
+      "points": [
+        [
+          1209.75,
+          1900.5
+        ],
+        [
+          1669.125,
+          2047.375
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "18",
+      "points": [
+        [
+          1884.75,
+          1888.0
+        ],
+        [
+          2009.75,
+          2003.625
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "101 101",
+      "points": [
+        [
+          941.0,
+          2091.125
+        ],
+        [
+          1191.0,
+          2188.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "POS点餐",
+      "points": [
+        [
+          1550.375,
+          2075.5
+        ],
+        [
+          1822.25,
+          2159.875
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "打印时间:2020-07-20 14:15:24",
+      "points": [
+        [
+          922.25,
+          2175.5
+        ],
+        [
+          1859.75,
+          2228.625
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "137433702729547248",
+      "points": [
+        [
+          1072.25,
+          2234.875
+        ],
+        [
+          1687.875,
+          2291.125
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "Tel:4006527557",
+      "points": [
+        [
+          1162.875,
+          2291.125
+        ],
+        [
+          1628.5,
+          2369.25
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "一点万象APP扫码自助积分",
+      "points": [
+        [
+          1031.625,
+          2475.5
+        ],
+        [
+          1772.25,
+          2556.75
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "(48小时内有效)!",
+      "points": [
+        [
+          1125.375,
+          2563.0
+        ],
+        [
+          1650.375,
+          2641.125
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "500积分=5元停车费",
+      "points": [
+        [
+          1106.625,
+          2644.25
+        ],
+        [
+          1700.375,
+          2731.75
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "141 525 524",
+      "points": [
+        [
+          1228.5,
+          3409.875
+        ],
+        [
+          1616.0,
+          3509.875
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "2020-07-20 165534.jpg",
+  "imageData": null,
+  "imageHeight": 4032,
+  "imageWidth": 3024
+}

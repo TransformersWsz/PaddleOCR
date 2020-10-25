@@ -1,0 +1,809 @@
+{
+  "version": "4.5.6",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "钟姐炖品万象城店",
+      "points": [
+        [
+          987.875,
+          556.75
+        ],
+        [
+          1962.875,
+          675.5
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "[大众点评南宁小吃快餐评价榜]第1名",
+      "points": [
+        [
+          984.75,
+          684.875
+        ],
+        [
+          2003.5,
+          806.75
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "结账单-堂食-已结",
+      "points": [
+        [
+          1347.25,
+          794.25
+        ],
+        [
+          1831.625,
+          859.875
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "单号:7",
+      "points": [
+        [
+          903.5,
+          878.625
+        ],
+        [
+          1300.375,
+          1078.625
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "桌号",
+      "points": [
+        [
+          1697.25,
+          888.0
+        ],
+        [
+          1947.25,
+          1031.75
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "品名",
+      "points": [
+        [
+          794.125,
+          1069.25
+        ],
+        [
+          937.875,
+          1178.625
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "规格",
+      "points": [
+        [
+          1234.75,
+          1088.0
+        ],
+        [
+          1394.125,
+          1172.375
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "数量",
+      "points": [
+        [
+          1459.75,
+          1066.125
+        ],
+        [
+          1612.875,
+          1163.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "单价",
+      "points": [
+        [
+          1666.0,
+          1059.875
+        ],
+        [
+          1809.75,
+          1147.375
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "小计",
+      "points": [
+        [
+          1912.875,
+          1050.5
+        ],
+        [
+          2078.5,
+          1147.375
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "套餐B",
+      "points": [
+        [
+          825.375,
+          1206.75
+        ],
+        [
+          975.375,
+          1334.875
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "套",
+      "points": [
+        [
+          1325.375,
+          1206.75
+        ],
+        [
+          1403.5,
+          1344.25
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "1.0",
+      "points": [
+        [
+          1500.375,
+          1194.25
+        ],
+        [
+          1634.75,
+          1322.375
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "21",
+      "points": [
+        [
+          1741.0,
+          1181.75
+        ],
+        [
+          1825.375,
+          1328.625
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "21",
+      "points": [
+        [
+          1947.25,
+          1178.625
+        ],
+        [
+          2056.625,
+          1319.25
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "-古法木瓜丁",
+      "points": [
+        [
+          847.25,
+          1338.0
+        ],
+        [
+          1209.75,
+          1456.75
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "份",
+      "points": [
+        [
+          1312.875,
+          1347.375
+        ],
+        [
+          1422.25,
+          1456.75
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "1.0",
+      "points": [
+        [
+          1497.25,
+          1334.875
+        ],
+        [
+          1616.0,
+          1447.375
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "21",
+      "points": [
+        [
+          1734.75,
+          1325.5
+        ],
+        [
+          1850.375,
+          1438.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "2",
+      "points": [
+        [
+          1953.5,
+          1328.625
+        ],
+        [
+          2091.0,
+          1422.375
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "-莲藕炖筒骨",
+      "points": [
+        [
+          825.375,
+          1463.0
+        ],
+        [
+          1206.625,
+          1581.75
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "份",
+      "points": [
+        [
+          1303.5,
+          1453.625
+        ],
+        [
+          1422.25,
+          1581.75
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "1.0",
+      "points": [
+        [
+          1484.75,
+          1441.125
+        ],
+        [
+          1644.125,
+          1569.25
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "18",
+      "points": [
+        [
+          1744.125,
+          1441.125
+        ],
+        [
+          1831.625,
+          1563.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "18",
+      "points": [
+        [
+          1956.625,
+          1431.75
+        ],
+        [
+          2078.5,
+          1553.625
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "-香米饭",
+      "points": [
+        [
+          834.75,
+          1578.625
+        ],
+        [
+          1091.0,
+          1697.375
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "份",
+      "points": [
+        [
+          1316.0,
+          1588.0
+        ],
+        [
+          1416.0,
+          1681.75
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "1.0",
+      "points": [
+        [
+          1494.125,
+          1578.625
+        ],
+        [
+          1653.5,
+          1688.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "2",
+      "points": [
+        [
+          1756.625,
+          1566.125
+        ],
+        [
+          1859.75,
+          1681.75
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "2",
+      "points": [
+        [
+          1975.375,
+          1556.75
+        ],
+        [
+          2069.125,
+          1675.5
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "-烫时蔬",
+      "points": [
+        [
+          837.875,
+          1700.5
+        ],
+        [
+          1097.25,
+          1819.25
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "份",
+      "points": [
+        [
+          1303.5,
+          1681.75
+        ],
+        [
+          1416.0,
+          1813.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "1.0",
+      "points": [
+        [
+          1491.0,
+          1694.25
+        ],
+        [
+          1644.125,
+          1803.625
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "2",
+      "points": [
+        [
+          1759.75,
+          1688.0
+        ],
+        [
+          1847.25,
+          1819.25
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "2",
+      "points": [
+        [
+          1966.0,
+          1691.125
+        ],
+        [
+          2069.125,
+          1806.75
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "消费合计:",
+      "points": [
+        [
+          906.625,
+          1847.375
+        ],
+        [
+          1222.25,
+          1956.75
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "21",
+      "points": [
+        [
+          1906.625,
+          1856.75
+        ],
+        [
+          2022.25,
+          1938.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "应收:",
+      "points": [
+        [
+          922.25,
+          1975.5
+        ],
+        [
+          1091.0,
+          2075.5
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "21",
+      "points": [
+        [
+          1928.5,
+          1966.125
+        ],
+        [
+          2025.375,
+          2047.375
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "哗啦啦微信:",
+      "points": [
+        [
+          1353.5,
+          2031.75
+        ],
+        [
+          1706.625,
+          2197.375
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "21",
+      "points": [
+        [
+          1919.125,
+          2044.25
+        ],
+        [
+          2047.25,
+          2181.75
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "101 101",
+      "points": [
+        [
+          1006.625,
+          2203.625
+        ],
+        [
+          1247.25,
+          2300.5
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "POS点餐",
+      "points": [
+        [
+          1603.5,
+          2219.25
+        ],
+        [
+          1850.375,
+          2303.625
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "打印时间:2020-07-20 13:29:52",
+      "points": [
+        [
+          997.25,
+          2288.0
+        ],
+        [
+          1891.0,
+          2356.75
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "137433702729547248",
+      "points": [
+        [
+          1150.375,
+          2347.375
+        ],
+        [
+          1719.125,
+          2416.125
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "Tel:4006527557",
+      "points": [
+        [
+          1206.625,
+          2394.25
+        ],
+        [
+          1659.75,
+          2503.625
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "一点万象APP扫码自助积分",
+      "points": [
+        [
+          1056.625,
+          2563.0
+        ],
+        [
+          1781.625,
+          2684.875
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "(48小时内有效)!",
+      "points": [
+        [
+          1166.0,
+          2656.75
+        ],
+        [
+          1669.125,
+          2744.25
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "500积分=5元停车费",
+      "points": [
+        [
+          1153.5,
+          2750.5
+        ],
+        [
+          1712.875,
+          2831.75
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "132 953 541",
+      "points": [
+        [
+          1259.75,
+          3488.0
+        ],
+        [
+          1622.25,
+          3591.125
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "2020-07-20 165423.jpg",
+  "imageHeight": 4032,
+  "imageWidth": 3024
+}

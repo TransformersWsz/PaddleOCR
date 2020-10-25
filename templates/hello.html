@@ -1,0 +1,61 @@
+<!doctype html>
+<title>OCR Online Demo</title>
+<link rel="stylesheet" href="/static/css/bootstrap.min.css">
+<link rel="stylesheet" href="/static/css/fileinput.min.css">
+
+
+<div class="container">
+    <div class="page-header">
+        <h2>在线演示（若要添加新的小票规则，请点此<a href="/rule">规则上传</a>）</h2>
+    </div>
+
+    <form enctype="multipart/form-data">
+        <div class="form-group">
+            <select class="form-control" id="bill_name" name="bill_name"> 
+              <option value="common">通用</option>
+              {% for item in config_names %}
+                <option value={{ item }}>{{ item }}</option>
+              {% endfor %}
+            </select>
+        </div>
+        <div class="form-group">
+            <input id="pic" class="file" type="file" multiple data-preview-file-type="any" data-upload-url="/upload"
+                name="picfile">
+        </div>
+    </form>
+</div>
+<!-- <img src="{{ url_for('static', filename='img/1.jpg') }}" /> -->
+<script src="/static/js/jquery.min.js"></script>
+<script src="/static/js/fileinput.min.js"></script>
+<script src="/static/js/bootstrap.min.js"></script>
+<script>
+    //准备附件上传的样式
+    $("#pic").fileinput({
+        showPreview: true, //是否显示预览
+        // initialPreview: [
+        //     "<img src='/static/img/ubuntu.jpg' class='file-preview-image' alt='Desert' title='Desert'>"
+        // ],
+        uploadUrl: '/upload', // you must set a valid URL here else you will get an error
+        allowedFileExtensions: ['jpg', 'png'],
+        showUpload: true, //是否显示上传按钮
+        overwriteInitial: false,
+        layoutTemplates: {
+            actionUpload: '',
+            actionDelete: ''
+        },
+        maxFileSize: 2000,
+        maxTotalFileCount: 1,
+        maxFileCount: 1,
+        uploadExtraData: function(previewId, index) {
+            const data = {
+                "bill_name": $("#bill_name").val()
+            };
+            return data
+        },
+        slugCallback: function (filename) {
+            return filename.replace('(', '_').replace(']', '_');
+        }
+    }).on("fileuploaded", (event, data) => {
+        window.location.href = "/result?bill_name=" + $("#bill_name").val();
+    });
+</script>
