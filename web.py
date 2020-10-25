@@ -6,6 +6,7 @@ from flask import redirect
 from werkzeug.utils import secure_filename
 import paddlehub as hub
 import json
+import time
 
 import argparse
 from datetime import timedelta
@@ -18,17 +19,16 @@ from extract import filter_info
 
 import json
 app = Flask(__name__)
-# app.config["SEND_FILE_MAX_AGE_DEFAULT"] = timedelta(0)
+app.config["SEND_FILE_MAX_AGE_DEFAULT"] = timedelta(0)
 
 upload_config_path = "./newrule.json"    # 规则配置文件上传存放位置
 config_json_path = "./bill_config.json"
 
-img_path = "./upload/origin.jpg"
+img_path = "./upload/{}"
 use_gpu = False
 det_model_dir = "./output/inference/db_det/"
 rec_model_dir = "./output/inference/rec_CRNN"
 
-text_sys, args = init_ocr_model(img_path, use_gpu, det_model_dir, rec_model_dir)
 
 
 @app.route('/')
@@ -60,7 +60,6 @@ def update_config(config_json_path, upload_config_path):
     return merge_res
 
 
-
 @app.route('/addrule', methods=['POST'])
 def addrule():
     f = request.files['jsonfile']
@@ -74,20 +73,25 @@ def addrule():
 
 @app.route('/upload', methods=['POST'])
 def upload_file():
-    
     f = request.files['picfile']
-    f.save(img_path)
+    filename = secure_filename(f.filename)
+    f.save(img_path.format(filename))
     bill_name = request.values.get("bill_name")
-
     return jsonify({
-        "msg": "success"
+        "msg": "success",
+        "filename": filename
     })
 
 
 @app.route("/result")
 def result():
+    text_sys, args = init_ocr_model(img_path, use_gpu, det_model_dir, rec_model_dir)
     bill_name = request.args.get("bill_name")
-    data, save_path = ft_recognize(text_sys, args)
+    filename = request.args.get("filename")
+    image_dir = img_path.format(filename)
+    d = vars(args)
+    d["image_dir"] = image_dir
+    data, save_path = ft_recognize(text_sys, argparse.Namespace(**d))
     shop_name, order_number, pay_money, sell_time = filter_info(data, bill_name)
     print(shop_name, order_number, pay_money, sell_time)
 

@@ -56,6 +56,8 @@
             return filename.replace('(', '_').replace(']', '_');
         }
     }).on("fileuploaded", (event, data) => {
-        window.location.href = "/result?bill_name=" + $("#bill_name").val();
+        bill_name = $("#bill_name").val();
+        filename = data.response.filename;
+        window.location.href = `/result?bill_name=${bill_name}&filename=${filename}`;
     });
 </script>
